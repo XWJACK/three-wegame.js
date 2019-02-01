@@ -12,7 +12,7 @@
 //    Orbit - left mouse / touch: one-finger move
 //    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish
 //    Pan - right mouse, or left mouse + ctrl/meta/shiftKey, or arrow keys / touch: two-finger move
-var THREE = require('three.min');
+var THREE = require('../three');
 
 THREE.OrbitControls = function (object, domElement) {
 
